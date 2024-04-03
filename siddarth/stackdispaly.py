@@ -1,0 +1,11 @@
+from stack import *
+s=stack()
+print("the stack is intially empty :",s.isempty())
+s.push('10')
+s.push('20')
+s.push('30')
+print("\n elements after the pushing the elements:",s.dispaly())
+print("the size of stack:",s.size())
+print("peek of atck is :",s.peek())
+print("pop opeartions :",s.pop())
+print("elments after the poping :",s.dispaly())
